@@ -2,6 +2,7 @@
   color: #000; }
 
 div {
+  min-height: 15px;
   background-color: #dd00ff;
   font-size: 15px;
   width: 11px; }
