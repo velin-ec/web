@@ -1,0 +1,20 @@
+$color: #000;
+$bg:#dd00ff;
+$fsize:15px;
+h1 {
+    color: $color;
+}
+div{
+    background-color:$bg;
+    h1{
+        color: $color
+    }
+    font-size:$fsize;
+    width:11px;
+}
+h5::after{
+    content:'';
+    font-size:$fsize
+}
+abbr{font-size:$fsize}
+h2{tab-size:$fsize;color:$bg;}

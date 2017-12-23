@@ -17,6 +17,41 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="index.php" />
+    <Compile Include="aboutUs.php" />
+    <Compile Include="admin\add.php" />
+    <Compile Include="admin\config.php" />
+    <Compile Include="admin\connect.php" />
+    <Compile Include="admin\delete.php" />
+    <Compile Include="admin\edit.php" />
+    <Compile Include="admin\manage.php" />
+    <Compile Include="contactUs.php" />
+    <Compile Include="detail.php" />
+    <Compile Include="list.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin\" />
+    <Folder Include="content\" />
+    <Folder Include="content\images\" />
+    <Folder Include="content\sass\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\blog.css" />
+    <None Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
+      <SubType>Content</SubType>
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </Content>
+    <Content Include="content\images\11.jpg" />
+    <Content Include="content\images\22.jpg" />
+    <Content Include="content\images\33.jpg" />
+    <Content Include="content\sass\1.css">
+      <SubType>Content</SubType>
+      <DependentUpon>content\sass\1.scss</DependentUpon>
+    </Content>
+    <Content Include="content\sass\1.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>content\sass\1.css</DependentUpon>
+    </Content>
+    <Content Include="content\sass\1.scss" />
   </ItemGroup>
 </Project>
