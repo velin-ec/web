@@ -5,7 +5,9 @@ div {
   min-height: 15px;
   background-color: #dd00ff;
   font-size: 15px;
-  width: 11px; }
+  width: 11px;
+  border-width: 1px;
+  border-color: red; }
   div h1 {
     color: #000; }
 

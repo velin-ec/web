@@ -12,6 +12,10 @@ div{
     }
     font-size:$fsize;
     width:11px;
+    border: {
+        width: 1px;
+        color: red;
+    }
 }
 h5::after{
     content:'';

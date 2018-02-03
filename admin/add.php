@@ -8,7 +8,7 @@ require_once('connect.php');
 
 $title = $_POST['title'];
 if(!(isset($_POST['title'])&&(!empty($title)))){
-    echo "<script>alert('标题不能为空');window.location.href='manage.php'</script>";
+    echo "<script>alert('标题不888能为空');window.location.href='manage.php'</script>";
     exit;
 }
 $author = $_POST['author'];
